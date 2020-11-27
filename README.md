@@ -1,103 +1,97 @@
-# homework1
-
 # 01 HTML CSS Git: Code Refactor
 
-## Your Task
+## Description 
 
-**Note**: Be sure to review the [Homework Guide](../important/Homework-Guide/README.md) and the [Good README Guide](../important/Good-README-Guide/README.md) before you start working on this assignment!
+This is a homepage for a fictional digital marketing agency named Horiseon. The goals of this project were to optimize this landing page for:
 
-This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
+* Search engine visibility (SEO)
+* User accessibility
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+This was accomplished by refactoring the codebase to include:
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
+* Semantic HTML elements
+* Image alt attributes
+* SEO-friendly metatags
 
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
+Refer to [https://github.com/piersky1/homework1/commits/main](https://github.com/piersky1/homework1/commits/main) for a log of all commits.
 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
-
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Are you ready to jump in? Here are this week's homework requirements:
-
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![code refactor demo](./assets/01-html-css-git-homework-demo.png)
+This project was deployed using GitHub Pages and can be found here: [https://piersky1.github.io/homework1/](https://piersky1.github.io/homework1/)
 
 
-## Grading Requirements
+## Table of Contents
 
-This homework is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-* Satisfies all of the above acceptance criteria plus the following code improvements:
 
-  * Application's links all function correctly.
+## Installation
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+There are several options to "install" this project yourself:
 
-  * Application's CSS file is properly commented.
+* Download and deploy the index.html file and assets folder containing the necessary stylesheet and images to your hosting service provider of preference. I recommend GitHub Pages, Heroku, or Netlify as free options.
 
-### Deployment: 32%
+* Download the files and open the index.html on your local machine.
 
-* Application deployed at live URL.
+* Simply view the live application on the web at: [https://piersky1.github.io/homework1/](https://piersky1.github.io/homework1/)
 
-* Application loads with no errors.
 
-* Application GitHub URL submitted.
+## Usage 
 
-* GitHub repository that contains application code.
+This project is intended for educational purposes only. Open the project in your web brower and right click to Inspect Element to inspect the code in detail. Notice how the code is optimized for search and accessibility:
 
-### Application Quality: 15%
+* Page has a descriptive title
+* Page has an informative meta description
+* Page has a self-referencing canonical link
+* Page is structured with semantic HTML elements
+* Etc.
 
-* Application resembles (at least 90%) screenshots provided in the homework instructions.
 
-### Repository Quality: 13%
+## Credits
 
-* Repository has a unique name.
+References:
 
-* Repository follows best practices for file structure and naming conventions.
+* [https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)
+* [https://moz.com/learn/seo](https://moz.com/learn/seo)
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+## License
 
-* Repository contains multiple descriptive commit messages.
+MIT License
 
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+Copyright (c) [2020] [Pierce Brelinsky]
 
-## Review
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You are required to submit the following for review:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* The URL of the deployed application.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+---
+
+
+## Badges
+
+![badmath](https://img.shields.io/badge/HTML5-100%25-orange)
+![badmath](https://img.shields.io/badge/CSS-100%25-green)
+![badmath](https://img.shields.io/badge/Accessibility-100%25-blue)
+![badmath](https://img.shields.io/badge/SEO-100%25-red)
+
+
+---
+
+This project was part of my coursework at the UNC Chapel Hill Coding Bootcamp. Full assigment details can be found [here](https://unc.bootcampcontent.com/UNC-Coding-Boot-Camp/unc-ral-fsf-pt-11-2020-u-c/blob/master/01-html-git-css/homework/README.md).
