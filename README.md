@@ -13,9 +13,9 @@ This was accomplished by refactoring the codebase to include:
 * Image alt attributes
 * SEO-friendly metatags
 
-Refer to [https://github.com/piersky1/homework1/commits/main](https://github.com/piersky1/homework1/commits/main) for a log of all commits.
+Refer to [https://github.com/piersky1/code-refactor/commits/main](https://github.com/piersky1/code-refactor/commits/main) for a log of all commits.
 
-This project was deployed using GitHub Pages and can be found here: [https://piersky1.github.io/homework1/](https://piersky1.github.io/homework1/)
+This project was deployed using GitHub Pages and can be found here: [https://piersky1.github.io/code-refactor/](https://piersky1.github.io/code-refactor/)
 
 
 ## Table of Contents
@@ -35,7 +35,7 @@ There are several options to "install" this project yourself:
 
 * Download the files and open the index.html on your local machine.
 
-* Simply view the live application on the web at: [https://piersky1.github.io/homework1/](https://piersky1.github.io/homework1/)
+* Simply view the live application on the web at: [https://piersky1.github.io/code-refactor/](https://piersky1.github.io/code-refactor/)
 
 
 ## Usage 
@@ -60,7 +60,7 @@ References:
 
 MIT License
 
-Copyright (c) [2020] [Pierce Brelinsky]
+Copyright (c) 2020 Pierce Brelinsky
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
